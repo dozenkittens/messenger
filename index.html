@@ -8,17 +8,15 @@
   </head>
   <body>
     <div class="container">
-      <div class="item header-logo">
-        <div class="header-logo-wrapper">
-          <img src="assets/settings.png" class="icon" alt="" />
-          <h1 class="h1-logo">Messenger</h1>
-        </div>
+      <div class="header-logo">
+        <img src="assets/settings.png" class="icon" alt="" />
+        <h1 class="h1-logo">Messenger</h1>
       </div>
 
-      <div class="item header-actions">
+      <div class="header-actions">
         <div class="user-info">
           <div class="user-avatar"></div>
-          <h1 class="h1-user">User</h1>
+          <h1 class="h1-user">User 1</h1>
         </div>
         <div class="header-icons">
           <img src="assets/phone.png" class="icon" alt="" />
@@ -27,7 +25,7 @@
         </div>
       </div>
 
-      <div class="item chat-list-1">
+      <div class="chat-list">
         <div class="chat-card">
           <div class="user-avatar-chat-list"></div>
           <div class="chat-list-text">
@@ -39,7 +37,7 @@
         <div class="chat-card">
           <div class="user-avatar-chat-list"></div>
           <div class="chat-list-text">
-            <h1 class="chat-list-user">User 1</h1>
+            <h1 class="chat-list-user">User 2</h1>
             <p class="last-message">last message</p>
           </div>
         </div>
@@ -47,7 +45,7 @@
         <div class="chat-card">
           <div class="user-avatar-chat-list"></div>
           <div class="chat-list-text">
-            <h1 class="chat-list-user">User 1</h1>
+            <h1 class="chat-list-user">User 3</h1>
             <p class="last-message">last message</p>
           </div>
         </div>
@@ -55,36 +53,56 @@
         <div class="chat-card">
           <div class="user-avatar-chat-list"></div>
           <div class="chat-list-text">
-            <h1 class="chat-list-user">User 1</h1>
+            <h1 class="chat-list-user">User 4</h1>
             <p class="last-message">last message</p>
           </div>
         </div>
       </div>
 
-      <div class="item chat-window">
+      <div class="chat-window">
         <div class="chat-window-messages">
-          <div class="my-mess">
-            <div class="my-short-mess"></div>
-            <div class="my-long-mess"></div>
+          <div class="my-mess mess">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </div>
-
-          <div class="user-mess">
-            <div class="user-short-mess"></div>
-            <div class="user-long-mess"></div>
+          <div class="my-mess mess">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+            repellendus hic totam nobis accusamus eius obcaecati earum inventore
+            tempora, dicta facilis, a quis ipsa vero nisi, blanditiis dolores
+            dolorum est minima labore! Corrupti rerum est, molestiae alias ipsum
+            similique sit?
+          </div>
+          <div class="user-mess mess">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores, provident itaque ipsum nulla beatae ipsam delectus
+            optio? Nam totam minus veritatis deserunt molestias perspiciatis
+            quasi animi neque, non omnis ut facere sequi doloribus magnam
+            distinctio hic, tenetur velit aspernatur cumque tempora! Totam
+            quaerat eveniet ex dolor, veniam eius tempore delectus?
+          </div>
+          <div class="user-mess mess">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero,
+            minus.
           </div>
         </div>
 
         <div class="message-div">
           <div class="type-message">
-            <div class="mess-div-start-typing">
-              <img src="assets/smile.png" alt="">
-              <p>Start typing</p>
+            <div class="type-message-flex">
+              <img src="assets/smile.png" alt="" class="type_smile" />
+              <input
+                type="text"
+                name=""
+                id="type"
+                placeholder="Type text..."
+                class="type"
+              />
             </div>
-            <div class="mess-div-photo"><img src="assets/photo.png" alt=""></div>
-            
+            <div class="type-message-flex">
+              <img src="assets/photo.png" alt="" class="type_photo" />
+            </div>
           </div>
           <div class="send-message">
-            <img src="/assets/send.png" alt="">
+            <img src="/assets/send.png" alt="" class="send" />
           </div>
         </div>
       </div>
