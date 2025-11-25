@@ -129,12 +129,12 @@ body {
 }
 
 .my-mess {
-  align-self: flex-start;
+  align-self: flex-end;
   background-color: #D9D9D9;
 }
 
 .user-mess {
-  align-self: flex-end;
+  align-self: flex-start;
   background-color: #D9D9D9;
 }
 
