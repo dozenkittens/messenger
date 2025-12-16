@@ -6,11 +6,6 @@ body {
   margin: 3px;
 }
 
-/* .item {
-  padding: 10px;
-  border: 1px solid black;
-} */
-
 .container {
   height: 99vh;
   display: grid;
@@ -96,11 +91,16 @@ body {
   background-color: white;
   margin-bottom: 5px;
   border-radius: 5px;
+  
 }
 
-.chat-card:hover{
-  background-color: #F5F5F5;
+.cl_active{
+background-color: #7E5CAD;
 }
+
+/* .chat-card:hover{
+  background-color: #F5F5F5;
+} */
 
 .chat-list-user {
   font-size: 25px;
